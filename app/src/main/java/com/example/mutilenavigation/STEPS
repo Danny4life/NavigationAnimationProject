@@ -1,0 +1,22 @@
+1. Create a new project
+2. add navigation dependencies
+3. add binding feature
+4. create a nav_graph -- app - new - resource_file-name nav_graph, select navigation and click ok
+5. add navigation host - switch to activity_main - delete the textView - select containers - drag navFragmentHost to the main
+   and click on infer constraint.
+6. add a destination to the nav_graph_xml file select blank fragment and change the name to home fragment
+   double click on the home fragment to open the fragment home, delete the textView, convert the frame layout to
+   constriant layout, delete the id then go to the xml file and add all required properties
+   then open the HomeFragment file and make an edit as required.
+7. repeat the steps for other xml files
+8. add animations file by going to app create a new resource file name it slide_in_left and select animation as the value and click ok,
+   then copy the animation properties and paste in slide_in_left file, repeat same steps for other animation files
+9. create actions on the nav graph by drag a line between the home and all related fragments to create an action
+10. start setting animations on by clicking on the home action arrow to open the Animations fields
+and add all necessary animations, do the same for name fragment and the rest
+11. Switch back to home fragment and set the on click listener for both btn signup and btn term
+12. run the app and text the home page
+13. switch to name fragment and write the necessary code
+14. open email fragment and write code too
+15. open welcome fragment and write code
+16. then run the app and text naviagtion and animation
